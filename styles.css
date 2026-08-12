@@ -174,6 +174,10 @@ h3 { margin-bottom: 12px; font-size: 21px; line-height: 1.25; }
 .contact-actions { display: flex; flex-direction: column; gap: 13px; padding: 30px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.05); }
 .contact-label { margin: 0; color: rgba(255,255,255,.55); font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
 .contact-placeholder { max-width: 440px; margin: 0; color: rgba(255,255,255,.84); font-size: 16px; }
+.whatsapp-button { width: 100%; justify-content: space-between; margin-top: 8px; border-color: #f8f1e9; background: #f8f1e9; color: #47252c; }
+.whatsapp-button:hover { border-color: #fff; background: #fff; }
+.whatsapp-status { width: 9px; height: 9px; flex: 0 0 auto; border-radius: 50%; background: #2fa66a; box-shadow: 0 0 0 5px rgba(47,166,106,.13); }
+.contact-note { margin: 2px 0 0; color: rgba(255,255,255,.5); font-size: 12px; }
 .site-footer { padding: 26px 0; border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); }
 .footer-row { display: grid; grid-template-columns: 1fr 2fr auto; gap: 30px; align-items: center; }
 .site-footer p { margin: 0; font-size: 12px; }
