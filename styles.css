@@ -98,6 +98,7 @@ h3 { margin-bottom: 12px; font-size: 21px; line-height: 1.25; }
 .hero-notes dd { max-width: 150px; margin: 7px 0 0; color: rgba(255,255,255,.64); font-size: 12px; line-height: 1.45; }
 .portrait-stage { position: relative; justify-self: end; align-self: end; width: min(100%, 480px); }
 .portrait-frame { position: relative; width: 100%; overflow: visible; aspect-ratio: 3/4; background: transparent; }
+.portrait-frame picture { width: 100%; height: 100%; display: block; }
 .portrait-frame::before { content: none; }
 .portrait-frame::after { content: none; }
 .portrait-image { width: 100%; height: 100%; display: block; object-fit: contain; object-position: center; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.92) 9%, #000 18%); mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.92) 9%, #000 18%); }

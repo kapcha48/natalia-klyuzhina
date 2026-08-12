@@ -13,8 +13,8 @@
   <title>Наталья Клюжина — индивидуальная психологическая практика</title>
   <link rel="icon" type="image/png" href="assets/og.png">
   <link rel="apple-touch-icon" href="assets/og.png">
-  <link rel="preload" as="image" href="assets/natalia-klyuzhina-original-optimized.jpg" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css?v=20260812-5">
+  <link rel="preload" as="image" href="assets/natalia-klyuzhina-960.avif" imagesrcset="assets/natalia-klyuzhina-480.avif 480w, assets/natalia-klyuzhina-960.avif 960w" imagesizes="(max-width: 760px) calc(100vw - 28px), (max-width: 1000px) 78vw, 480px" type="image/avif" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20260812-6">
   <script src="script.js" defer></script>
 </head>
 
@@ -61,7 +61,11 @@
 
         <div class="portrait-stage">
           <div class="portrait-frame">
-            <img class="portrait-image" src="assets/natalia-klyuzhina-original-optimized.jpg" alt="Портрет Натальи Клюжиной" width="1086" height="1448" fetchpriority="high" decoding="async">
+            <picture>
+              <source type="image/avif" srcset="assets/natalia-klyuzhina-480.avif 480w, assets/natalia-klyuzhina-960.avif 960w" sizes="(max-width: 760px) calc(100vw - 28px), (max-width: 1000px) 78vw, 480px">
+              <source type="image/webp" srcset="assets/natalia-klyuzhina-480.webp 480w, assets/natalia-klyuzhina-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 28px), (max-width: 1000px) 78vw, 480px">
+              <img class="portrait-image" src="assets/natalia-klyuzhina-960.jpg" alt="Портрет Натальи Клюжиной" width="960" height="1280" fetchpriority="high" decoding="async">
+            </picture>
           </div>
           <div class="portrait-caption">
             <span>Индивидуальная практика</span>
