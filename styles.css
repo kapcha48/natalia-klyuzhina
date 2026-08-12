@@ -226,10 +226,12 @@ h3 { margin-bottom: 12px; font-size: 21px; line-height: 1.25; }
   .nav-wrap { min-height: 68px; }
   .brand-copy small { display: none; }
   .menu-toggle { display: block; }
-  .site-nav { position: fixed; inset: 68px 0 0; display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: 28px 20px; transform: translateX(100%); background: var(--ivory); color: var(--wine); transition: transform .25s ease; }
+  .site-nav { position: fixed; inset: 68px 0 0; display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: 28px 24px 40px; transform: translateX(100%); background: linear-gradient(145deg, var(--wine-deep), var(--wine)); color: var(--ivory); box-shadow: -20px 30px 60px rgba(35,17,22,.32); transition: transform .25s ease; }
   .site-nav.open { transform: translateX(0); }
-  .site-nav > a { padding: 19px 8px; border-bottom: 1px solid var(--line); font-family: var(--serif); font-size: 26px; }
-  .site-nav .button { margin-top: 20px; border: 0; background: var(--wine); color: #fff; font-family: var(--sans); font-size: 15px; }
+  .site-nav > a { padding: 19px 8px; border-bottom: 1px solid rgba(255,255,255,.18); color: var(--ivory); font-family: var(--serif); font-size: 26px; }
+  .site-nav > a:not(.button) { opacity: .9; }
+  .site-nav .button { margin-top: 24px; border: 1px solid var(--ivory); background: var(--ivory); color: var(--wine-deep); font-family: var(--sans); font-size: 15px; }
+  .site-nav .button:hover, .site-nav .button:focus-visible { background: #fff; color: var(--wine-deep); }
   .hero { padding: 104px 0 30px; }
   h1 { font-size: clamp(42px, 11.5vw, 56px); }
   h2 { font-size: clamp(35px, 9.5vw, 48px); }
