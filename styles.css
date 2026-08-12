@@ -148,7 +148,8 @@ h3 { margin-bottom: 12px; font-size: 21px; line-height: 1.25; }
 .process p { margin: 0; color: var(--muted); }
 
 .projects { position: relative; overflow: hidden; background: var(--ivory); color: var(--ink); }
-.projects::after { content: ""; position: absolute; width: 620px; height: 620px; right: -300px; bottom: -330px; border: 1px solid var(--line); border-radius: 50%; }
+.projects::after { content: ""; position: absolute; width: 620px; height: 620px; right: -300px; bottom: -330px; border: 1px solid var(--line); border-radius: 50%; pointer-events: none; }
+.projects > .shell { position: relative; z-index: 1; }
 .projects .section-index--light { color: #90797b; }
 .projects-heading { display: grid; grid-template-columns: 190px 1fr; gap: clamp(48px, 7vw, 100px); }
 .projects-heading h2 { max-width: 880px; }
