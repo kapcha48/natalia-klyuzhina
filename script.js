@@ -40,3 +40,17 @@ if (reducedMotion || !('IntersectionObserver' in window)) {
 document.querySelectorAll('[data-year]').forEach((item) => {
   item.textContent = String(new Date().getFullYear());
 });
+
+const sendMetrikaGoal = (goal) => {
+  if (typeof window.ym === 'function') {
+    window.ym(111627561, 'reachGoal', goal);
+  }
+};
+
+document.querySelector('.whatsapp-button')?.addEventListener('click', () => {
+  sendMetrikaGoal('whatsapp_click');
+});
+
+document.querySelector('.project-button')?.addEventListener('click', () => {
+  sendMetrikaGoal('iispc_click');
+});
